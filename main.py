@@ -76,7 +76,7 @@ async def send_help(msg: types.Message):
     await msg.reply(f"Тут о работе бота,{msg.from_user.first_name}")
 
 
-reserv_info: dict = {'date': '', 'n_people': '', 'number': '', 'name': '', 'dop_info': ''}
+#reserv_info: dict = {'date': '', 'n_people': '', 'number': '', 'name': '', 'dop_info': ''}
 
 
 @dp.message_handler(content_types=['text'])
